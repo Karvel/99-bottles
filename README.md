@@ -1,5 +1,7 @@
 # 99 Bottles
 
+[![Karvel](https://circleci.com/gh/Karvel/99-bottles.svg?style=shield)](https://circleci.com/gh/Karvel/99-bottles)
+
 ## Installing Ruby
 
 ### Windows
