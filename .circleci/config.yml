@@ -29,13 +29,7 @@ jobs:
     steps:
       - checkout 
       - ruby/install-deps 
-      # Here we make sure that the secondary container boots 
-      # up before we run operations on the database.
-      - run:
-          name: Wait for DB
-          command: dockerize -wait tcp://localhost:5432 -timeout 1m
-      # Run rspec in parallel
-      - ruby/rspec-test
+      - run: ruby test/bottles_test.rb
 
 # We use workflows to orchestrate the jobs that we declared above.
 workflows:
