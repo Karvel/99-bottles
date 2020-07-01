@@ -1,6 +1,8 @@
 # 99 Bottles
 
-[![Karvel](https://circleci.com/gh/Karvel/99-bottles.svg?style=shield)](https://circleci.com/gh/Karvel/99-bottles)
+|Branch|Status|Coverage|
+|---|---|---|
+|master|[![Karvel](https://circleci.com/gh/Karvel/99-bottles/tree/master.svg?style=shield)](https://circleci.com/gh/Karvel/99-bottles/tree/master)|[![codecov](https://codecov.io/gh/Karvel/99-bottles/branch/master/graph/badge.svg)](https://codecov.io/gh/Karvel/99-bottles)|
 
 ## Installing Ruby
 

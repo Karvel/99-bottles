@@ -30,6 +30,9 @@ jobs:
       - checkout 
       - ruby/install-deps 
       - run: ruby test/bottles_test.rb
+      - run:
+          name: Send to Codecov
+          command: "bash <(curl -s https://codecov.com/bash) -t $CODECOV_TOKEN"
 
 # We use workflows to orchestrate the jobs that we declared above.
 workflows:
